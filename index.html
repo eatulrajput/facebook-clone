@@ -1,116 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Facebook Login</title>
   <link rel="stylesheet" href="/assets/style.css">
-  <style>
-    body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+  <script src="switch-html.js" defer></script>
 
-.section1 {
-    margin-top: 200px;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-
-.container {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 18px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
- a{
-    color: #166fe5;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #1877f2;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #166fe5;
-}
-.btn2 {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #42B72A;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn2:hover {
-    background-color: #166fe5;
-}
-
-.text-center {
-    text-align: center;
-}
-  </style>
 </head>
+
 <body>
-  
-  <div class="section1"><img style="width: 300px;" src="/assets/facebook.svg" alt="">
-  <p style="font-size: 28px;">Facebook helps you connect and share with the people in your life.</p>
-</div>
-  
   <div class="container">
-    <form id="loginForm">
-      <div class="form-group">
-        <input type="text" id="email" placeholder="Email address or phone number">
-      </div>
-      <div class="form-group">
-        <input type="password" id="password" placeholder="Password">
-      </div>
-      <button type="submit" class="btn">Log In</button>
-      <a href="#">Forgotten password?</a>
+    <div class="box1">
+      <img src="/assets/facebook.svg" alt="">
+      <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+
+    <div class="box2">
+      <form id="loginForm" class=" form">
+        <div class="form-group">
+          <input type="text" id="email" placeholder="Email address or phone number">
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn">Log In</button>
+        <a href="#">Forgotten password?</a>
+        <hr class="divider">
+        <button type="submit" class="btn2">Create new account</button>
+
+      </form>
+      <div class="caption">
+      <p><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>English (UK) हिन्दी मराठी اردو ਪੰਜਾਬੀ বাংলা ગુજરાતી தமிழ் తెలుగు മലയാളം ಕನ್ನಡ
+      </p>
       <hr>
-      <button type="submit" class="btn2">Create new account</button>
-      
-    </form>
+      <p>Sign Up Login Messenger Facebook Lite Video Places Games Marketplace Meta Pay Meta Store Meta Quest Meta AI Instagram Threads Fundraisers Services Voting Information Centre Privacy Policy Privacy Centre Groups About Create adCreate Page Developers Careers Cookies AdChoices Terms Help Contact uploading and non-users Settings Activity log</p>
+
+      <p>Meta © 2024</p>
   </div>
 
   <source src="/assets/script.js" type="">
 </body>
+
 </html>
